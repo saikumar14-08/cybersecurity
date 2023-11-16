@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+
+
+.phishingContainer {
+  margin: 2rem 106px;
+}
+
+.phishingContainer p {
+  line-height: 1.6;
+}
+
+.phishingContainer ul {
+  margin-bottom: 20px;
+}
+
+.phishingContainer ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}

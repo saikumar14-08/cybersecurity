@@ -1,0 +1,19 @@
+.maincontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.logocontainer {
+    height: 8rem;
+    width: fit-content;
+}
+
+.logo {
+    height: 6rem;
+    transform: scale(2);
+}
+
+.menucontianer {
+    padding: 1rem;
+}
