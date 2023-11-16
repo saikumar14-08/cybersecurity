@@ -11,11 +11,11 @@ import Home from './components/Home'
 // Use sandwiching concept for using route inside route
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/seas' element={<Layout />}>
+    <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
-      <Route path='Phishing' element={<Phishing />} />
-      <Route path='Baiting' element={<Baiting />} />
-      <Route path='Pretexting' element={<PreText />} />
+      <Route path='/Phishing' element={<Phishing />} />
+      <Route path='/Baiting' element={<Baiting />} />
+      <Route path='/Pretexting' element={<PreText />} />
     </Route>
   )
 )
